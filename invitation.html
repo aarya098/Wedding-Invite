@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5e7c9">
+
+  <title>Wedding Invitation · Vaishak & Anagha</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-music-page="invitation">
+
+  <main class="shell">
+
+    <!-- Hero Section -->
+    <header class="hero">
+
+      <p class="eyebrow">Together with their families</p>
+
+      <div class="ornament">❦</div>
+
+      <h1>
+        Vaishak <span>&amp;</span> Anagha
+      </h1>
+
+      <p class="hero-date">
+        Sunday · 6 December 2026
+      </p>
+
+      <p class="hero-place">
+        Ambalappara · Palakkad · Kerala
+      </p>
+
+      <a class="open-button" href="#invitation">
+        Open invitation ↓
+      </a>
+
+    </header>
+
+
+    <!-- Invitation Content -->
+    <section id="invitation" class="content">
+
+      <!-- Navigation -->
+      <nav class="tabs">
+        <a class="active" href="invitation.html">Invitation</a>
+        <a href="thalikettu.html">Thalikettu</a>
+        <a href="reception.html">Reception</a>
+      </nav>
+
+
+      <!-- Page Heading -->
+      <h2 class="page-heading">
+        A day to remember
+      </h2>
+
+
+      <!-- Countdown -->
+      <section class="countdown">
+
+        <p class="eyebrow">Counting down to forever</p>
+
+        <div id="countdown" class="count-grid">
+
+          <div>
+            <strong>—</strong>
+            <small>Days</small>
+          </div>
+
+          <div>
+            <strong>—</strong>
+            <small>Hours</small>
+          </div>
+
+          <div>
+            <strong>—</strong>
+            <small>Minutes</small>
+          </div>
+
+          <div>
+            <strong>—</strong>
+            <small>Seconds</small>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- Wedding Events -->
+      <section class="event-list">
+
+        <a class="event-link" href="thalikettu.html">
+
+          <span>
+            <strong>Thalikettu</strong>
+            <small>Sun, 6 Dec · 11:20 am to 12:00 pm</small>
+          </span>
+
+          <b>→</b>
+
+        </a>
+
+
+        <a class="event-link" href="reception.html">
+
+          <span>
+            <strong>Reception</strong>
+            <small>Sun, 6 Dec · from 6:00 pm</small>
+          </span>
+
+          <b>→</b>
+
+        </a>
+
+      </section>
+
+
+      <!-- RSVP Section -->
+      <section class="rsvp" id="rsvp">
+
+        <h2>RSVP</h2>
+
+        <form id="rsvpForm">
+
+          <input
+            id="guestName"
+            type="text"
+            placeholder="Your name"
+            aria-label="Your name"
+            required
+          >
+
+          <select id="guestCount" aria-label="Number of guests">
+
+            <option value="1">1 guest</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+            <option value="4">4 guests</option>
+            <option value="5">5 guests</option>
+            <option value="6">6 guests</option>
+            <option value="7">7 guests</option>
+            <option value="8">8 guests</option>
+            <option value="9">9 guests</option>
+            <option value="10">10 guests</option>
+
+          </select>
+
+
+          <!-- RSVP Buttons -->
+          <div class="rsvp-actions">
+
+            <button
+              type="submit"
+              class="accept"
+              value="accept"
+            >
+              Joyfully accept
+            </button>
+
+            <button
+              type="button"
+              class="decline"
+              id="decline"
+            >
+              Regretfully decline
+            </button>
+
+          </div>
+
+
+          <!-- RSVP Status Message -->
+          <p
+            class="form-note"
+            id="rsvpMessage"
+            aria-live="polite"
+          >
+            Please let us know if you can join us.
+          </p>
+
+        </form>
+
+      </section>
+
+
+      <!-- Footer -->
+      <footer>
+
+        <span>❦</span>
+
+        <p>Vaishak &amp; Anagha</p>
+
+        <small>6 · 12 · 2026</small>
+
+      </footer>
+
+    </section>
+
+  </main>
+
+
+  <!-- JavaScript Files -->
+  <script src="music.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
