@@ -156,3 +156,9 @@
 .music-toggle.music-needs-tap{animation:music-pulse 1.8s ease-in-out infinite}
 @keyframes music-pulse{0%,100%{box-shadow:0 5px 18px rgba(65,45,70,.16)}50%{box-shadow:0 5px 18px rgba(146,116,154,.42),0 0 0 7px rgba(146,116,154,.10)}}
 @media(max-width:560px){.music-toggle{right:14px;bottom:14px;width:43px;height:43px}}
+
+/* ===== Mobile cover fix: name on one line + full-bleed artwork (no cropped box) ===== */
+@media(max-width:700px){
+  .cover-watermark{left:0;right:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center center;opacity:.4}
+  .cover-card h1{font-size:11.5vw;white-space:nowrap;margin:12px 0 22px}
+}
